@@ -1,0 +1,34 @@
+@font-face {
+  font-family: "EntypoRegular";
+  src: url('../fonts/entypo-webfont.eot');
+  src: url('../fonts/entypo-webfont.eot?#iefix') format("eot"), url('../fonts/entypo-webfont.svg#EntypoRegular') format("svg"), url('../fonts/entypo-webfont.ttf') format("truetype"), url('../fonts/entypo-webfont.woff') format("woff"), url('../fonts/entypo-webfont.otf') format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 20, ../../lib/stylesheets/_font-icons.scss */
+.menu-49:before {
+  font-family: "EntypoRegular";
+  margin-right: 10px;
+  font-size: 1.6em;
+}
+/* line 28, ../../lib/stylesheets/_font-icons.scss */
+.menu-49:before {
+  content: "\004f";
+}
+
+/* line 10, ../sass/screen.scss */
+ul {
+  list-style: none;
+  list-style-image: none;
+}
+/* line 20, ../../lib/stylesheets/_font-icons.scss */
+ul li:before {
+  font-family: "EntypoRegular";
+  margin-right: 10px;
+  font-size: 1.6em;
+}
+/* line 28, ../../lib/stylesheets/_font-icons.scss */
+ul li.leaf:before {
+  content: "\004f";
+}

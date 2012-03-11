@@ -1,0 +1,31 @@
+@import "entyporegular";
+
+$fi-family: "EntypoRegular";
+$fi-file: "entypo-webfont";
+
+@mixin font-icon-family($family:$fi-family, $file:$fi-file) {
+  @if $family == "EntypoRegular" {
+    $file:"entypo-webfont";
+  }
+  @font-face {
+    font-family: "#{$family}";
+    src: font-url('#{$file}.eot');
+    src: font-url('#{$file}.eot?#iefix') format('eot'), font-url('#{$file}.svg##{$family}') format('svg'), font-url('#{$file}.ttf') format('truetype'), font-url('#{$file}.woff') format('woff'), font-url('#{$file}.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+  }
+}
+
+@mixin font-icon-base($family:$fi-family, $margin: 10px, $font-size: 1.6em) {
+  &:before {
+    font-family: "#{$family}";
+    margin-right: $margin;
+    font-size: $font-size;
+  }
+}
+
+@mixin font-icon-name($icon:$mic) {
+  &:before {
+    content: '#{$icon}';
+  }
+}
