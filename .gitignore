@@ -1,5 +1,6 @@
 example/.sass-cache
 example/.DS_Store
+example/sass/.DS_Store
 lib/.DS_Store
 lib/templates/project/.DS_Store
 lib/stylesheets/.DS_Store
