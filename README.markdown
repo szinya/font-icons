@@ -25,4 +25,6 @@ To add font-icons to an existing compass project:
     
 ## Code License
 
-   See Licence.txt
+   See LICENSE.txt
+
+
