@@ -1,7 +1,9 @@
 description "The Font-Icon Generator."
 
-discover :fonts
-discover :stylesheets
+font "entypo-webfont.eot"
+font "entypo-webfont.svg"
+font "entypo-webfont.ttf"
+font "entypo-webfont.woff"
 
 help %Q{
 http://github.com/krisbulman/icon-fonts
