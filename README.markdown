@@ -15,7 +15,7 @@ To add font-icons to an existing compass project:
     require 'font-icons'
     
     # Then run the following command within your project directory:
-    compass install -r font-icons -f font-icons
+    $ compass install -r font-icons -f font-icons
 
 ## Attribution
 
