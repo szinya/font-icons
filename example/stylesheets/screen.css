@@ -1,7 +1,7 @@
 @font-face {
   font-family: "EntypoRegular";
-  src: url('../fonts/entypo-webfont.eot');
-  src: url('../fonts/entypo-webfont.eot?#iefix') format("eot"), url('../fonts/entypo-webfont.svg#EntypoRegular') format("svg"), url('../fonts/entypo-webfont.ttf') format("truetype"), url('../fonts/entypo-webfont.woff') format("woff"), url('../fonts/entypo-webfont.otf') format("opentype");
+  src: url('fonts/entypo-webfont.eot');
+  src: url('fonts/entypo-webfont.eot?#iefix') format("eot"), url('fonts/entypo-webfont.svg#EntypoRegular') format("svg"), url('fonts/entypo-webfont.ttf') format("truetype"), url('fonts/entypo-webfont.woff') format("woff"), url('fonts/entypo-webfont.otf') format("opentype");
   font-weight: bold;
   font-style: normal;
 }
