@@ -1,12 +1,10 @@
 description "The Font-Icon Generator."
 
-stylesheet 'font-icon.scss', :media => 'screen, projection'
-html "example.html"
-font "entypo_regular.eot"
-font "entypo_regular.otf"
-font "entypo_regular.svg"
-font "entypo_regular.ttf"
-font "entypo_regular.woff"
+font "iconic_fill.eot"
+font "iconic_fill.otf"
+font "iconic_fill.svg"
+font "iconic_fill.ttf"
+font "iconic_fill.woff"
 
 help %Q{
 http://github.com/krisbulman/icon-fonts

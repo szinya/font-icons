@@ -1,7 +1,7 @@
 @font-face {
   font-family: "EntypoRegular";
-  src: url('fonts/entypo-webfont.eot');
-  src: url('fonts/entypo-webfont.eot?#iefix') format("eot"), url('fonts/entypo-webfont.svg#EntypoRegular') format("svg"), url('fonts/entypo-webfont.ttf') format("truetype"), url('fonts/entypo-webfont.woff') format("woff"), url('fonts/entypo-webfont.otf') format("opentype");
+  src: url('fonts/entypo_regular.eot');
+  src: url('fonts/entypo_regular.eot?#iefix') format("eot"), url('fonts/entypo_regular.svg#EntypoRegular') format("svg"), url('fonts/entypo_regular.ttf') format("truetype"), url('fonts/entypo_regular.woff') format("woff"), url('fonts/entypo_regular.otf') format("opentype");
   font-weight: bold;
   font-style: normal;
 }
@@ -11,24 +11,24 @@ ul {
   list-style: none;
   list-style-image: none;
 }
-/* line 20, ../../lib/stylesheets/_font-icons.scss */
+/* line 20, /Users/kgbulman/Downloads/webfontkit-20120307-145956/extensiontest/font-icons/lib/stylesheets/_font-icons.scss */
 ul li:before {
   font-family: "EntypoRegular";
   margin-right: 10px;
   font-size: 1.6em;
 }
-/* line 28, ../../lib/stylesheets/_font-icons.scss */
+/* line 28, /Users/kgbulman/Downloads/webfontkit-20120307-145956/extensiontest/font-icons/lib/stylesheets/_font-icons.scss */
 ul li.leaf:before {
   content: "\004f";
 }
 
-/* line 20, ../../lib/stylesheets/_font-icons.scss */
+/* line 20, /Users/kgbulman/Downloads/webfontkit-20120307-145956/extensiontest/font-icons/lib/stylesheets/_font-icons.scss */
 .menu-49:before {
   font-family: "EntypoRegular";
   margin-right: 10px;
   font-size: 1.6em;
 }
-/* line 28, ../../lib/stylesheets/_font-icons.scss */
+/* line 28, /Users/kgbulman/Downloads/webfontkit-20120307-145956/extensiontest/font-icons/lib/stylesheets/_font-icons.scss */
 .menu-49:before {
   content: "\004f";
 }

@@ -1,11 +1,11 @@
-@import "entyporegular";
+@import "entypo-regular";
 
 $fi-family: "EntypoRegular";
-$fi-file: "entypo-webfont";
+$fi-file: "entypo-regular";
 
 @mixin font-icon-family($family:$fi-family, $file:$fi-file) {
   @if $family == "EntypoRegular" {
-    $file:"entypo-webfont";
+    $file:"entypo_regular";
   }
   @font-face {
     font-family: "#{$family}";
@@ -24,7 +24,7 @@ $fi-file: "entypo-webfont";
   }
 }
 
-@mixin font-icon-name($icon:$fi-mic) {
+@mixin font-icon-name($icon:$er-mic) {
   &:before {
     content: '#{$icon}';
   }
