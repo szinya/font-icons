@@ -1,18 +1,19 @@
 ## Install
 
-Install the plugin: (should automatically install latest dependencies for Compass, and Haml)
+Get the plugin: 
 
-    gem install font-icons
+    $ git clone git://github.com/krisbulman/font-icons.git
 
-To create a new project based on fancy-buttons:
+Install the plugin: (should automatically install latest dependencies for Compass)
 
-    compass install -r font-icons -f font-icons
+    $ cd font-icons
+    $ gem install font-icons-0.8.0.gem
 
-To add fancy-buttons to an existing compass project:
+To add font-icons to an existing compass project:
 
     # Add the following lines to your compass configuration file:
     require 'font-icons'
     
-    # Then run the following command:
+    # Then run the following command within your project directory:
     compass install -r font-icons -f font-icons
 
