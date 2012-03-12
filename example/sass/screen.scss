@@ -2,18 +2,18 @@
 
 @include font-icon-family(EntypoRegular);
 
-.menu-49 {
-  @include font-icon-base(EntypoRegular, 10px, 1.6em); 
-  @include font-icon-name($mic);
-}
-
 ul {
   list-style: none;
   list-style-image: none;
   li {
     @include font-icon-base(EntypoRegular, 10px, 1.6em); 
     &.leaf {
-      @include font-icon-name($mic);
+      @include font-icon-name($fi-mic);
     }
   }
+}
+
+.menu-49 {
+  @include font-icon-base(EntypoRegular, 10px, 1.6em); 
+  @include font-icon-name($fi-mic);
 }

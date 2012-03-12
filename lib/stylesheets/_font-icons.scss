@@ -24,7 +24,7 @@ $fi-file: "entypo-webfont";
   }
 }
 
-@mixin font-icon-name($icon:$mic) {
+@mixin font-icon-name($icon:$fi-mic) {
   &:before {
     content: '#{$icon}';
   }
