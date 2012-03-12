@@ -11,4 +11,7 @@ http://github.com/krisbulman/icon-fonts
 
 welcome_message %Q{
 Sweet, icon-fonts is now installed. You can start using the mixins in your sass project. 
+
+See the included example project for mixin usage.
+
 }
