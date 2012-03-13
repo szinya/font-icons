@@ -14,7 +14,7 @@ To add font-icons to an existing compass project:
     # Add the following lines to your compass configuration file:
     require 'font-icons'
     
-Adding a font to your library is achieved with the following command:
+Adding a font to your library is achieved by running the following command within an existing compass project:
 
     compass install -r font-icons font-icons/<font_name>
 
@@ -28,7 +28,7 @@ To import only the mixins and variables for your specific font, import using one
 
     @import font-icons/<font>
 
-## Attribution
+## Font Attribution
 
     Fonts included from the Entypo font icon set created by Daniel Bruce
     http://www.entypo.com
