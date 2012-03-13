@@ -7,6 +7,12 @@ font "entypo_regular.otf"
 font "entypo_regular.svg"
 font "entypo_regular.ttf"
 font "entypo_regular.woff"
+font "iconic_stroke.eot"
+font "iconic_stroke.otf"
+font "iconic_stroke.svg"
+font "iconic_stroke.ttf"
+font "iconic_stroke.woff"
+
 
 help %Q{
 http://github.com/krisbulman/icon-fonts
