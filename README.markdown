@@ -25,6 +25,7 @@ The following <font> paramaters are accepted:
 ## Import
 
 To import only the mixins and variables for your specific font, import using one of the allowed font parameters:
+
     @import font-icons/<font>
 
 ## Attribution
