@@ -16,7 +16,7 @@ To add font-icons to an existing compass project:
     
 Adding a font to your library is achieved by running the following command within an existing compass project:
 
-    compass install -r font-icons font-icons/<font_name>
+    $ compass install -r font-icons font-icons/<font_name>
 
 The following <font> paramaters are accepted:
 
