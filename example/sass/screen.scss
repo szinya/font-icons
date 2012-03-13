@@ -1,19 +1,19 @@
-@import "font-icons";
+@import "font-icons/entypo";
 
-@include font-icon-family(IconicStroke);
+@include font-icon-family(EntypoRegular);
 
 ul {
   list-style: none;
   list-style-image: none;
   li {
-    @include font-icon-base(IconicStroke, 10px, 1.6em); 
+    @include font-icon-base(EntypoRegular, 10px, 1.6em); 
     &.leaf {
-      @include font-icon-name($is-mic);
+      @include font-icon-name($er-mic);
     }
   }
 }
 
 .menu-49 {
-  @include font-icon-base(IconicStroke, 10px, 1.6em); 
-  @include font-icon-name($is-mic);
+  @include font-icon-base(EntypoRegular, 10px, 1.6em); 
+  @include font-icon-name($er-mic);
 }

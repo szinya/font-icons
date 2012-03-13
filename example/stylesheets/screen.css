@@ -1,7 +1,7 @@
 @font-face {
-  font-family: "IconicStroke";
-  src: url('fonts/iconic_stroke.eot');
-  src: url('fonts/iconic_stroke.eot?#iefix') format("eot"), url('fonts/iconic_stroke.svg#IconicStroke') format("svg"), url('fonts/iconic_stroke.ttf') format("truetype"), url('fonts/iconic_stroke.woff') format("woff"), url('fonts/iconic_stroke.otf') format("opentype");
+  font-family: "EntypoRegular";
+  src: url('fonts/entypo_regular.eot');
+  src: url('fonts/entypo_regular.eot?#iefix') format("eot"), url('fonts/entypo_regular.svg#EntypoRegular') format("svg"), url('fonts/entypo_regular.ttf') format("truetype"), url('fonts/entypo_regular.woff') format("woff"), url('fonts/entypo_regular.otf') format("opentype");
   font-weight: bold;
   font-style: normal;
 }
@@ -11,24 +11,24 @@ ul {
   list-style: none;
   list-style-image: none;
 }
-/* line 18, /Users/kgbulman/Downloads/webfontkit-20120307-145956/extensiontest/font-icons/lib/stylesheets/base/_font-mixins.scss */
+/* line 18, /Users/kgbulman/Downloads/webfontkit-20120307-145956/extensiontest/font-icons/stylesheets/font-icons/base/_font-mixins.scss */
 ul li:before {
-  font-family: "IconicStroke";
+  font-family: "EntypoRegular";
   margin-right: 10px;
   font-size: 1.6em;
 }
-/* line 26, /Users/kgbulman/Downloads/webfontkit-20120307-145956/extensiontest/font-icons/lib/stylesheets/base/_font-mixins.scss */
+/* line 26, /Users/kgbulman/Downloads/webfontkit-20120307-145956/extensiontest/font-icons/stylesheets/font-icons/base/_font-mixins.scss */
 ul li.leaf:before {
-  content: "\e05f";
+  content: "\004f";
 }
 
-/* line 18, /Users/kgbulman/Downloads/webfontkit-20120307-145956/extensiontest/font-icons/lib/stylesheets/base/_font-mixins.scss */
+/* line 18, /Users/kgbulman/Downloads/webfontkit-20120307-145956/extensiontest/font-icons/stylesheets/font-icons/base/_font-mixins.scss */
 .menu-49:before {
-  font-family: "IconicStroke";
+  font-family: "EntypoRegular";
   margin-right: 10px;
   font-size: 1.6em;
 }
-/* line 26, /Users/kgbulman/Downloads/webfontkit-20120307-145956/extensiontest/font-icons/lib/stylesheets/base/_font-mixins.scss */
+/* line 26, /Users/kgbulman/Downloads/webfontkit-20120307-145956/extensiontest/font-icons/stylesheets/font-icons/base/_font-mixins.scss */
 .menu-49:before {
-  content: "\e05f";
+  content: "\004f";
 }

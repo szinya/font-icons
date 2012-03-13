@@ -17,6 +17,6 @@ Gem::Specification.new do |gemspec|
   gemspec.add_dependency 'compass', '>= 0.11'
 
   gemspec.files = %w(README.markdown VERSION.yml Rakefile)
-  gemspec.files += Dir.glob("lib/**/*")
+  gemspec.files += Dir.glob("lib/**/**/*")
 end
 
