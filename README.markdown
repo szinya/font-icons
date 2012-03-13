@@ -22,6 +22,11 @@ The following <font> paramaters are accepted:
 
     iconic, entypo
 
+## Import
+
+To import only the mixins and variables for your specific font, import using one of the allowed font parameters:
+    @import font-icons/<font>
+
 ## Attribution
 
     Fonts included from the Entypo font icon set created by Daniel Bruce
