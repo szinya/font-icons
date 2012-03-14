@@ -30,11 +30,11 @@ To import only the mixins and variables for your specific font, import using one
 
 ## Font Attribution
 
-   Fonts included from the Entypo font icon set created by Daniel Bruce  
+   Fonts included from the Entypo font icon set created by [Daniel Bruce](http://twitter.com/#!/danielbruce_)  
    http://www.entypo.com  
    License: [CC Attribution 3.0 License](http://creativecommons.org/licenses/by/3.0/)
 
-   Fonts included from the Iconic font icon set created by P.J. Onori  
+   Fonts included from the Iconic font icon set created by [P.J. Onori](http://twitter.com/#!/somerandomdude)  
    http://somerandomdude.com/work/iconic/  
    License: [SIL Open Font License](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL)
   
