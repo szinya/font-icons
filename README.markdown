@@ -37,7 +37,7 @@ To import only the mixins and variables for your specific font, import using one
    Fonts included from the Iconic font icon set created by P.J. Onori  
    http://somerandomdude.com/work/iconic/  
    License: CC Attribution 3.0 License  
-
+ 
 ## License
 
    See LICENSE.txt
