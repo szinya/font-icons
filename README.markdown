@@ -38,7 +38,7 @@ To import only the mixins and variables for your specific font, import using one
    http://somerandomdude.com/work/iconic/  
    License: CC Attribution 3.0 License  
 
-## Code License
+## License
 
    See LICENSE.txt
 
