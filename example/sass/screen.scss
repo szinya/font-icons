@@ -1,19 +1,56 @@
 @import "font-icons/entypo";
+@import "font-icons/iconic";
 
 @include font-icon-family(EntypoRegular);
 
-ul {
+ul.entypo {
   list-style: none;
   list-style-image: none;
   li {
-    @include font-icon-base(EntypoRegular, 10px, 1.6em); 
-    &.leaf {
-      @include font-icon-name($er-mic);
+    @include font-icon-base(EntypoRegular, 10px, 1.8em); 
+    &.er-home {
+      @include font-icon-name($er-home);
+    }
+    &.er-download {
+      @include font-icon-name($er-download);
+    }
+    &.er-check {
+      @include font-icon-name($er-check_ok);
+    }
+    &.er-lock {
+      @include font-icon-name($er-lock);
     }
   }
 }
 
-.menu-49 {
-  @include font-icon-base(EntypoRegular, 10px, 1.6em); 
-  @include font-icon-name($er-mic);
+.er-rss {
+  @include font-icon-base(EntypoRegular, 10px, 1.8em); 
+  @include font-icon-name($er-rss);
+}
+
+@include font-icon-family(IconicStroke);
+
+ul.iconic {
+  list-style: none;
+  list-style-image: none;
+  li {
+    @include font-icon-base(IconicStroke, 10px, 1em); 
+    &.is-home {
+      @include font-icon-name($is-home);
+    }
+    &.is-download {
+      @include font-icon-name($is-download);
+    }
+    &.is-check {
+      @include font-icon-name($is-check);
+    }
+    &.is-lock {
+      @include font-icon-name($is-lock_stroke);
+    }
+  }
+}
+
+.is-rss {
+  @include font-icon-base(IconicStroke, 10px, 1em); 
+  @include font-icon-name($is-rss);
 }
