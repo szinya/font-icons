@@ -7,16 +7,16 @@ Get the plugin:
 Install the plugin: (should automatically install latest dependencies for Compass)
 
     $ cd font-icons
-    $ gem install font-icons-0.8.0.gem
+    $ gem install font-icons-0.8.1.gem
 
 To add font-icons to an existing compass project:
 
     # Add the following lines to your compass configuration file:
     require 'font-icons'
     
-Adding a font to your library is achieved with the following command:
+Adding a font to your library is achieved by running the following command within an existing compass project:
 
-    compass install -r font-icons font-icons/<font_name>
+    $ compass install -r font-icons font-icons/<font_name>
 
 The following <font> paramaters are accepted:
 
@@ -24,21 +24,21 @@ The following <font> paramaters are accepted:
 
 ## Import
 
-To import only the mixins and variables for your specific font, import using one of the allowed font parameters:
+To import only the mixins and variables for your specific font, import using one of the allowed font parameters (listed above):
+
     @import font-icons/<font>
 
-## Attribution
+## Font Attribution
 
-    Fonts included from the Entypo font icon set created by Daniel Bruce
-    http://www.entypo.com
-    License: CC Attribution 3.0 License
+   Fonts included from the Entypo font icon set created by [Daniel Bruce](http://twitter.com/#!/danielbruce_)  
+   http://www.entypo.com  
+   License: [CC Attribution 3.0 License](http://creativecommons.org/licenses/by/3.0/)
 
-    Fonts included from the Iconic font icon set created by P.J. Onori
-    http://somerandomdude.com/work/iconic/
-    License: CC Attribution 3.0 License
+   Fonts included from the Iconic font icon set created by [P.J. Onori](http://twitter.com/#!/somerandomdude)  
+   http://somerandomdude.com/work/iconic/  
+   License: [SIL Open Font License](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL)
+  
 
-## Code License
+## License
 
    See LICENSE.txt
-
-
