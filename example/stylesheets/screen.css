@@ -11,36 +11,44 @@ ul.entypo {
   list-style: none;
   list-style-image: none;
 }
-/* line 18, ../../stylesheets/font-icons/base/_font-mixins.scss */
+/* line 18, /Users/kgbulman/code/font-icons/stylesheets/font-icons/base/_font-mixins.scss */
 ul.entypo li:before {
   font-family: "EntypoRegular";
-  margin-right: 10px;
-  font-size: 1.8em;
+  font-style: normal;
+  font-size: 1em;
+  margin-right: 0.8em;
+  text-align: center;
+  display: inline-block;
+  width: 1em;
 }
-/* line 26, ../../stylesheets/font-icons/base/_font-mixins.scss */
+/* line 30, /Users/kgbulman/code/font-icons/stylesheets/font-icons/base/_font-mixins.scss */
 ul.entypo li.er-item-001:before {
   content: "\e007";
 }
-/* line 26, ../../stylesheets/font-icons/base/_font-mixins.scss */
+/* line 30, /Users/kgbulman/code/font-icons/stylesheets/font-icons/base/_font-mixins.scss */
 ul.entypo li.er-item-002:before {
   content: "\1f4c5";
 }
-/* line 26, ../../stylesheets/font-icons/base/_font-mixins.scss */
+/* line 30, /Users/kgbulman/code/font-icons/stylesheets/font-icons/base/_font-mixins.scss */
 ul.entypo li.er-item-003:before {
   content: "\2713";
 }
-/* line 26, ../../stylesheets/font-icons/base/_font-mixins.scss */
+/* line 30, /Users/kgbulman/code/font-icons/stylesheets/font-icons/base/_font-mixins.scss */
 ul.entypo li.er-item-004:before {
   content: "\1f513";
 }
 
-/* line 18, ../../stylesheets/font-icons/base/_font-mixins.scss */
+/* line 18, /Users/kgbulman/code/font-icons/stylesheets/font-icons/base/_font-mixins.scss */
 .er-item-005:before {
   font-family: "EntypoRegular";
-  margin-right: 10px;
-  font-size: 1.8em;
+  font-style: normal;
+  font-size: 1em;
+  margin-right: 0.8em;
+  text-align: center;
+  display: inline-block;
+  width: 1em;
 }
-/* line 26, ../../stylesheets/font-icons/base/_font-mixins.scss */
+/* line 30, /Users/kgbulman/code/font-icons/stylesheets/font-icons/base/_font-mixins.scss */
 .er-item-005:before {
   content: "\e01b";
 }
@@ -58,36 +66,44 @@ ul.iconic {
   list-style: none;
   list-style-image: none;
 }
-/* line 18, ../../stylesheets/font-icons/base/_font-mixins.scss */
+/* line 18, /Users/kgbulman/code/font-icons/stylesheets/font-icons/base/_font-mixins.scss */
 ul.iconic li:before {
   font-family: "IconicStroke";
-  margin-right: 10px;
+  font-style: normal;
   font-size: 1em;
+  margin-right: 0.8em;
+  text-align: center;
+  display: inline-block;
+  width: 1em;
 }
-/* line 26, ../../stylesheets/font-icons/base/_font-mixins.scss */
+/* line 30, /Users/kgbulman/code/font-icons/stylesheets/font-icons/base/_font-mixins.scss */
 ul.iconic li.is-item-001:before {
   content: "\e007";
 }
-/* line 26, ../../stylesheets/font-icons/base/_font-mixins.scss */
+/* line 30, /Users/kgbulman/code/font-icons/stylesheets/font-icons/base/_font-mixins.scss */
 ul.iconic li.is-item-002:before {
   content: "\e06c";
 }
-/* line 26, ../../stylesheets/font-icons/base/_font-mixins.scss */
+/* line 30, /Users/kgbulman/code/font-icons/stylesheets/font-icons/base/_font-mixins.scss */
 ul.iconic li.is-item-003:before {
   content: "\2717";
 }
-/* line 26, ../../stylesheets/font-icons/base/_font-mixins.scss */
+/* line 30, /Users/kgbulman/code/font-icons/stylesheets/font-icons/base/_font-mixins.scss */
 ul.iconic li.is-item-004:before {
   content: "\e076";
 }
 
-/* line 18, ../../stylesheets/font-icons/base/_font-mixins.scss */
+/* line 18, /Users/kgbulman/code/font-icons/stylesheets/font-icons/base/_font-mixins.scss */
 .is-item-005:before {
   font-family: "IconicStroke";
-  margin-right: 10px;
+  font-style: normal;
   font-size: 1em;
+  margin-right: 0.8em;
+  text-align: center;
+  display: inline-block;
+  width: 1em;
 }
-/* line 26, ../../stylesheets/font-icons/base/_font-mixins.scss */
+/* line 30, /Users/kgbulman/code/font-icons/stylesheets/font-icons/base/_font-mixins.scss */
 .is-item-005:before {
   content: "\e02c";
 }

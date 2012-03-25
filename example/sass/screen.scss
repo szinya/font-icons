@@ -7,7 +7,7 @@ ul.entypo {
   list-style: none;
   list-style-image: none;
   li {
-    @include font-icon-base(EntypoRegular, 10px, 1.8em); 
+    @include font-icon-base(EntypoRegular); 
     &.er-item-001 {
       @include font-icon-name($er-chat);
     }
@@ -24,7 +24,7 @@ ul.entypo {
 }
 
 .er-item-005 {
-  @include font-icon-base(EntypoRegular, 10px, 1.8em); 
+  @include font-icon-base(EntypoRegular); 
   @include font-icon-name($er-rss);
 }
 
@@ -34,7 +34,7 @@ ul.iconic {
   list-style: none;
   list-style-image: none;
   li {
-    @include font-icon-base(IconicStroke, 10px, 1em); 
+    @include font-icon-base(IconicStroke); 
     &.is-item-001 {
       @include font-icon-name($is-chat_alt_stroke);
     }
@@ -51,6 +51,6 @@ ul.iconic {
 }
 
 .is-item-005 {
-  @include font-icon-base(IconicStroke, 10px, 1em); 
+  @include font-icon-base(IconicStroke); 
   @include font-icon-name($is-rss);
 }

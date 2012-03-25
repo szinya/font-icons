@@ -14,11 +14,15 @@
   }
 }
 
-@mixin font-icon-base($family:$fi-family, $margin: 10px, $font-size: 1.6em) {
+@mixin font-icon-base($family:$fi-family, $font-size: 1em, $width: 1em, $margin: 0.8em) {
   &:before {
     font-family: "#{$family}";
-    margin-right: $margin;
+    font-style: normal;
     font-size: $font-size;
+    margin-right: $margin;
+    text-align: center;
+    display: inline-block;
+    width: $width;
   }
 }
 
