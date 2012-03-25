@@ -18,31 +18,31 @@ ul.entypo li:before {
   font-size: 1.8em;
 }
 /* line 26, ../../stylesheets/font-icons/base/_font-mixins.scss */
-ul.entypo li.er-home:before {
-  content: "\00EF";
+ul.entypo li.er-item-001:before {
+  content: "\e007";
 }
 /* line 26, ../../stylesheets/font-icons/base/_font-mixins.scss */
-ul.entypo li.er-download:before {
-  content: "\0077";
+ul.entypo li.er-item-002:before {
+  content: "\1f4c5";
 }
 /* line 26, ../../stylesheets/font-icons/base/_font-mixins.scss */
-ul.entypo li.er-check:before {
-  content: "\0057";
+ul.entypo li.er-item-003:before {
+  content: "\2713";
 }
 /* line 26, ../../stylesheets/font-icons/base/_font-mixins.scss */
-ul.entypo li.er-lock:before {
-  content: "\0055";
+ul.entypo li.er-item-004:before {
+  content: "\1f513";
 }
 
 /* line 18, ../../stylesheets/font-icons/base/_font-mixins.scss */
-.er-rss:before {
+.er-item-005:before {
   font-family: "EntypoRegular";
   margin-right: 10px;
   font-size: 1.8em;
 }
 /* line 26, ../../stylesheets/font-icons/base/_font-mixins.scss */
-.er-rss:before {
-  content: "\0053";
+.er-item-005:before {
+  content: "\e01b";
 }
 
 @font-face {
@@ -65,29 +65,29 @@ ul.iconic li:before {
   font-size: 1em;
 }
 /* line 26, ../../stylesheets/font-icons/base/_font-mixins.scss */
-ul.iconic li.is-home:before {
-  content: "\2302";
+ul.iconic li.is-item-001:before {
+  content: "\e007";
 }
 /* line 26, ../../stylesheets/font-icons/base/_font-mixins.scss */
-ul.iconic li.is-download:before {
-  content: "\e042";
+ul.iconic li.is-item-002:before {
+  content: "\e06c";
 }
 /* line 26, ../../stylesheets/font-icons/base/_font-mixins.scss */
-ul.iconic li.is-check:before {
+ul.iconic li.is-item-003:before {
   content: "\2717";
 }
 /* line 26, ../../stylesheets/font-icons/base/_font-mixins.scss */
-ul.iconic li.is-lock:before {
-  content: "\e075";
+ul.iconic li.is-item-004:before {
+  content: "\e076";
 }
 
 /* line 18, ../../stylesheets/font-icons/base/_font-mixins.scss */
-.is-rss:before {
+.is-item-005:before {
   font-family: "IconicStroke";
   margin-right: 10px;
   font-size: 1em;
 }
 /* line 26, ../../stylesheets/font-icons/base/_font-mixins.scss */
-.is-rss:before {
+.is-item-005:before {
   content: "\e02c";
 }

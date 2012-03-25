@@ -8,22 +8,22 @@ ul.entypo {
   list-style-image: none;
   li {
     @include font-icon-base(EntypoRegular, 10px, 1.8em); 
-    &.er-home {
-      @include font-icon-name($er-home);
+    &.er-item-001 {
+      @include font-icon-name($er-chat);
     }
-    &.er-download {
-      @include font-icon-name($er-download);
+    &.er-item-002 {
+      @include font-icon-name($er-calendar);
     }
-    &.er-check {
-      @include font-icon-name($er-check_ok);
+    &.er-item-003 {
+      @include font-icon-name($er-check);
     }
-    &.er-lock {
-      @include font-icon-name($er-lock);
+    &.er-item-004 {
+      @include font-icon-name($er-lock-open);
     }
   }
 }
 
-.er-rss {
+.er-item-005 {
   @include font-icon-base(EntypoRegular, 10px, 1.8em); 
   @include font-icon-name($er-rss);
 }
@@ -35,22 +35,22 @@ ul.iconic {
   list-style-image: none;
   li {
     @include font-icon-base(IconicStroke, 10px, 1em); 
-    &.is-home {
-      @include font-icon-name($is-home);
+    &.is-item-001 {
+      @include font-icon-name($is-chat_alt_stroke);
     }
-    &.is-download {
-      @include font-icon-name($is-download);
+    &.is-item-002 {
+      @include font-icon-name($is-calendar_alt_stroke);
     }
-    &.is-check {
+    &.is-item-003 {
       @include font-icon-name($is-check);
     }
-    &.is-lock {
-      @include font-icon-name($is-lock_stroke);
+    &.is-item-004 {
+      @include font-icon-name($is-unlock_stroke);
     }
   }
 }
 
-.is-rss {
+.is-item-005 {
   @include font-icon-base(IconicStroke, 10px, 1em); 
   @include font-icon-name($is-rss);
 }
