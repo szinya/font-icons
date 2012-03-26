@@ -1,10 +1,10 @@
 description "The Font-Icon Generator."
 
-font "iconic_stroke.eot"
-font "iconic_stroke.otf"
-font "iconic_stroke.svg"
-font "iconic_stroke.ttf"
-font "iconic_stroke.woff"
+font "../../fonts/iconic_stroke.eot"
+font "../../fonts/iconic_stroke.otf"
+font "../../fonts/iconic_stroke.svg"
+font "../../fonts/iconic_stroke.ttf"
+font "../../fonts/iconic_stroke.woff"
 
 help %Q{
 http://github.com/krisbulman/icon-fonts
