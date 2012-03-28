@@ -1,0 +1,33 @@
+@mixin font-icon-family($family:$fi-family, $file:$fi-file) {
+  @if $family == "IconicStroke" {
+    $file:"iconic_stroke";
+  }
+  @else if $family == "EntypoRegular" {
+    $file:"entypo_regular";
+  }
+  @font-face {
+    font-family: "#{$family}";
+    src: font-url('#{$file}.eot');
+    src: font-url('#{$file}.eot?#iefix') format('eot'), font-url('#{$file}.svg##{$family}') format('svg'), font-url('#{$file}.ttf') format('truetype'), font-url('#{$file}.woff') format('woff'), font-url('#{$file}.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+  }
+}
+
+@mixin font-icon-base($family:$fi-family, $font-size: 1em, $width: 1em, $margin: 0.8em) {
+  &:before {
+    font-family: "#{$family}";
+    font-style: normal;
+    font-size: $font-size;
+    margin-right: $margin;
+    text-align: center;
+    display: inline-block;
+    width: $width;
+  }
+}
+
+@mixin font-icon-name($icon:$is-mic) {
+  &:before {
+    content: '#{$icon}';
+  }
+}

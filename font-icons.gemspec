@@ -18,4 +18,5 @@ Gem::Specification.new do |gemspec|
 
   gemspec.files = %w(README.markdown VERSION.yml Rakefile)
   gemspec.files += Dir.glob("lib/**/**/*")
+  gemspec.files += Dir.glob("stylesheets/**/*")
 end
