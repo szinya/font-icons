@@ -1,10 +1,9 @@
 description "The Font-Icon Generator."
 
-font "entypo_regular.eot"
-font "entypo_regular.otf"
-font "entypo_regular.svg"
-font "entypo_regular.ttf"
-font "entypo_regular.woff"
+font "entypo.eot"
+font "entypo.svg"
+font "entypo.ttf"
+font "entypo.woff"
 
 help %Q{
 http://github.com/krisbulman/font-icons

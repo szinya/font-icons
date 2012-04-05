@@ -1,40 +1,40 @@
 @import "font-icons/entypo";
 @import "font-icons/iconic";
 
-@include font-icon-family(EntypoRegular);
+@include font-icon-family(entypo);
 
 ul.entypo {
   list-style: none;
   list-style-image: none;
   li {
-    @include font-icon-base(EntypoRegular); 
+    @include font-icon-base(entypo); 
     &.er-item-001 {
-      @include font-icon-name($er-chat);
+      @include font-icon-name($e-chat);
     }
     &.er-item-002 {
-      @include font-icon-name($er-calendar);
+      @include font-icon-name($e-calendar);
     }
     &.er-item-003 {
-      @include font-icon-name($er-check);
+      @include font-icon-name($e-check);
     }
     &.er-item-004 {
-      @include font-icon-name($er-lock-open);
+      @include font-icon-name($e-lock-open);
     }
   }
 }
 
 .er-item-005 {
-  @include font-icon-base(EntypoRegular); 
-  @include font-icon-name($er-rss);
+  @include font-icon-base(entypo); 
+  @include font-icon-name($e-rss);
 }
 
-@include font-icon-family(IconicStroke);
+@include font-icon-family(iconic);
 
 ul.iconic {
   list-style: none;
   list-style-image: none;
   li {
-    @include font-icon-base(IconicStroke); 
+    @include font-icon-base(iconic); 
     &.is-item-001 {
       @include font-icon-name($is-chat_alt_stroke);
     }
@@ -51,6 +51,6 @@ ul.iconic {
 }
 
 .is-item-005 {
-  @include font-icon-base(IconicStroke); 
+  @include font-icon-base(iconic); 
   @include font-icon-name($is-rss);
 }

@@ -2,16 +2,15 @@ description "The Font-Icon Generator."
 
 stylesheet 'fonticon.scss', :media => 'screen, projection'
 html "example.html"
-font "entypo_regular.eot"
-font "entypo_regular.otf"
-font "entypo_regular.svg"
-font "entypo_regular.ttf"
-font "entypo_regular.woff"
-font "iconic_stroke.eot"
-font "iconic_stroke.otf"
-font "iconic_stroke.svg"
-font "iconic_stroke.ttf"
-font "iconic_stroke.woff"
+font "entypo.eot"
+font "entypo.svg"
+font "entypo.ttf"
+font "entypo.woff"
+font "iconic.eot"
+font "iconic.otf"
+font "iconic.svg"
+font "iconic.ttf"
+font "iconic.woff"
 
 
 help %Q{

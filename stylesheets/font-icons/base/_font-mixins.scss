@@ -1,20 +1,34 @@
-@mixin font-icon-family($family:$fi-family, $file:$fi-file) {
-  @if $family == "IconicStroke" {
-    $file:"iconic_stroke";
+@mixin font-icon-family($family:"iconic", $file:"iconic") {
+  @if $family == "iconic" {
+    $family:"IconicStroke";
+    $file:"iconic";
   }
-  @else if $family == "EntypoRegular" {
-    $file:"entypo_regular";
+  @else if $family == "entypo" {
+    $family:"EntypoUni";
+    $file:"entypo";
   }
   @font-face {
-    font-family: "#{$family}";
-    src: font-url('#{$file}.eot');
-    src: font-url('#{$file}.eot?#iefix') format('eot'), font-url('#{$file}.svg##{$family}') format('svg'), font-url('#{$file}.ttf') format('truetype'), font-url('#{$file}.woff') format('woff'), font-url('#{$file}.otf') format('opentype');
-    font-weight: bold;
-    font-style: normal;
+    font-family: '#{$family}'; 
+    src: font-url('#{$file}.eot'); 
+    src: font-url('#{$file}.eot?#iefix') format('embedded-opentype'),
+         font-url('#{$file}.woff') format('woff'),
+         font-url('#{$file}.ttf') format('truetype'),
+         font-url('#{$file}.svg#entypo') format('svg'),
+         font-url('#{$file}.otf') format('opentype');
+    font-weight: normal; font-style: normal;
   }
+
 }
 
-@mixin font-icon-base($family:$fi-family, $font-size: 1em, $width: 1em, $margin: 0.8em) {
+@mixin font-icon-base($family:"iconic", $font-size: 1em, $width: 1em, $margin: 0.8em) {
+  @if $family == "iconic" {
+    $family:"IconicStroke";
+    $file:"iconic";
+  }
+  @else if $family == "entypo" {
+    $family:"EntypoUni";
+    $file:"entypo";
+  }
   &:before {
     font-family: "#{$family}";
     font-style: normal;
