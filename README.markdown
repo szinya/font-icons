@@ -2,19 +2,19 @@
 
 ```
 # Get the compass extension:
-    $ sudo gem install font-icons --pre
+$ sudo gem install font-icons --pre
 
 # Add the following lines to your compass configuration file:
-    require 'font-icons'
+require 'font-icons'
 
 # Adding a font to your library is achieved by running the following command within an existing compass project:
-    $ compass install -r font-icons font-icons/FONTNAME
+$ compass install -r font-icons font-icons/FONTNAME
 
 # The following paramaters are accepted:
-    iconic, entypo
+iconic, entypo
 
 # Optionally, you can install all fonts at once using: 
-    $ compass install -r font-icons font-icons
+$ compass install -r font-icons font-icons
 ```
 
 ## Usage
