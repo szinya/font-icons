@@ -39,10 +39,10 @@ ul.entypo {
 ## Update
 ```
 # Uninstall the compass extension:
-    $ sudo gem uninstall font-icons
+$ sudo gem uninstall font-icons
 
 # Install the compass extension again:
-    $ sudo gem install font-icons --pre
+$ sudo gem install font-icons --pre
 ```
 
 ## Font Attribution
