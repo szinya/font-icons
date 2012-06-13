@@ -1,5 +1,6 @@
 ## Install
 
+```
 # Get the compass extension:
     $ sudo gem install font-icons --pre
 
@@ -14,6 +15,7 @@
 
 # Optionally, you can install all fonts at once using: 
     $ compass install -r font-icons font-icons
+```
 
 ## Usage
 ```
