@@ -1,0 +1,108 @@
+/*-------------Content----------------*/
+/* line 2, ../sass/demo-layout.scss */
+.content {
+  width: 1340px;
+  margin: 0 auto;
+  clear: both;
+  padding-top: 20px;
+  -webkit-transition: all .3s;
+}
+
+/*------------- Four Column Row ----------------*/
+/* line 5, ../sass/demo-layout.scss */
+ul.four-col-grid {
+  padding-bottom: 40px;
+}
+
+/* line 6, ../sass/demo-layout.scss */
+ul.four-col-grid li {
+  width: 22%;
+  margin-right: 4%;
+  float: left;
+  margin-bottom: 10px;
+}
+
+/* line 7, ../sass/demo-layout.scss */
+ul.four-col-grid li:nth-child(4n+4) {
+  margin-right: 0;
+  float: right;
+}
+
+/*------------- up to 1480px ----------------*/
+@media only screen and (max-width: 1480px) {
+  /* line 11, ../sass/demo-layout.scss */
+  .content {
+    width: 90%;
+  }
+}
+/*------------- small laptops / ipad in landscape ----------------*/
+@media only screen and (max-width: 1120px) {
+  /* line 16, ../sass/demo-layout.scss */
+  ul.four-col-grid li {
+    width: 30%;
+    margin-right: 5%;
+  }
+
+  /* line 17, ../sass/demo-layout.scss */
+  ul.four-col-grid li:nth-child(4n+4) {
+    margin-right: 5%;
+    float: left;
+  }
+
+  /* line 18, ../sass/demo-layout.scss */
+  ul.four-col-grid li:nth-child(3n+3) {
+    margin-right: 0;
+    float: right;
+  }
+}
+/*------------- ipad in portrait ----------------*/
+@media only screen and (max-width: 768px) {
+  /* line 23, ../sass/demo-layout.scss */
+  ul.four-col-grid li {
+    width: 45%;
+    margin-right: 10%;
+  }
+
+  /* line 24, ../sass/demo-layout.scss */
+  ul.four-col-grid li:nth-child(4n+4) {
+    margin-right: 10%;
+    float: left;
+  }
+
+  /* line 25, ../sass/demo-layout.scss */
+  ul.four-col-grid li:nth-child(3n+3) {
+    margin-right: 10%;
+    float: left;
+  }
+
+  /* line 26, ../sass/demo-layout.scss */
+  ul.four-col-grid li:nth-child(even) {
+    margin-right: 0;
+    float: right;
+  }
+
+  /* line 27, ../sass/demo-layout.scss */
+  ul.four-col-grid li:nth-child(odd) {
+    clear: both;
+  }
+}
+/*------------- iphone in landscape ----------------*/
+@media only screen and (max-width: 480px) {
+  /* line 32, ../sass/demo-layout.scss */
+  .content {
+    width: 80%;
+    padding-top: 20px;
+  }
+
+  /* line 33, ../sass/demo-layout.scss */
+  ul.four-col-grid li {
+    width: 100%;
+    margin-right: 0;
+    float: none;
+  }
+
+  /* line 34, ../sass/demo-layout.scss */
+  ul.four-col-grid li:nth-child(even) {
+    float: none;
+  }
+}
