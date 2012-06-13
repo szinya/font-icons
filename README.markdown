@@ -1,32 +1,21 @@
 ## Install
 
-Get the plugin: 
+```
+# Get the compass extension:
+$ sudo gem install font-icons --pre
 
-    $ gem install font-icons --pre
+# Add the following lines to your compass configuration file:
+require 'font-icons'
 
-Install the plugin: (should automatically install latest dependencies for Compass)
+# Adding a font to your library is achieved by running the following command within an existing compass project:
+$ compass install -r font-icons font-icons/FONTNAME
 
-    $ cd font-icons
-    $ gem install font-icons
+# The following paramaters are accepted:
+iconic, entypo
 
-To add font-icons to an existing compass project:
-
-    # Add the following lines to your compass configuration file:
-    require 'font-icons'
-    
-Adding a font to your library is achieved by running the following command within an **existing** compass project:
-
-    $ compass install -r font-icons font-icons/<font_name>
-
-The following <font> paramaters are accepted:
-
-    iconic, entypo
-
-## Import
-
-To import into your stylesheet:
-
-    @import "font-icons";
+# Optionally, you can install all fonts at once using: 
+$ compass install -r font-icons font-icons
+```
 
 ## Usage
 ```
@@ -42,10 +31,20 @@ ul.entypo {
   list-style-image: none;
   li {
     @include font-icon-base(entypo); 
-    &.entypo-music { @extend .entypo-music; }
+    &.menu-item-001 { @extend .entypo-music; }
   }
 }
 ```
+
+## Update
+```
+# Uninstall the compass extension:
+$ sudo gem uninstall font-icons
+
+# Install the compass extension again:
+$ sudo gem install font-icons --pre
+```
+
 ## Font Attribution
 
    Fonts included from the Entypo font icon set created by [Daniel Bruce](http://twitter.com/#!/danielbruce_)  
