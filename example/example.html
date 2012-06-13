@@ -23,7 +23,10 @@
 ul.entypo {
   list-style: none;
   list-style-image: none;
-  li { @include font-icon-base(entypo); }
+  li {
+    @include font-icon-base(entypo); 
+    &.entypo-music { @extend .entypo-music; }
+  }
 }
 </pre>
 

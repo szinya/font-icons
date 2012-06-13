@@ -7,7 +7,7 @@ Get the plugin:
 Install the plugin: (should automatically install latest dependencies for Compass)
 
     $ cd font-icons
-    $ gem install font-icons-0.1.0.gem
+    $ gem install font-icons
 
 To add font-icons to an existing compass project:
 
@@ -40,7 +40,10 @@ To import into your stylesheet:
 ul.entypo {
   list-style: none;
   list-style-image: none;
-  li { @include font-icon-base(entypo); }
+  li {
+    @include font-icon-base(entypo); 
+    &.entypo-music { @extend .entypo-music; }
+  }
 }
 ```
 ## Font Attribution
