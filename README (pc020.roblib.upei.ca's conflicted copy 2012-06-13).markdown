@@ -24,25 +24,10 @@ The following <font> paramaters are accepted:
 
 ## Import
 
-To import into your stylesheet:
+To import only the mixins and variables for your specific font, import using one of the allowed font parameters (listed above):
 
-    @import "font-icons";
+    @import "font-icons/<font>";
 
-## Usage
-```
-// Import font-icons compass extension
-@import "font-icons";
-
-// Add the font family
-@include font-icon-family(entypo);
-
-// Style your heart out
-ul.entypo {
-  list-style: none;
-  list-style-image: none;
-  li { @include font-icon-base(entypo); }
-}
-```
 ## Font Attribution
 
    Fonts included from the Entypo font icon set created by [Daniel Bruce](http://twitter.com/#!/danielbruce_)  
