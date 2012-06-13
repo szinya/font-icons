@@ -51,6 +51,12 @@ a:focus {
   outline: none;
 }
 
+* {
+box-sizing:border-box;
+-moz-box-sizing:border-box; /* Firefox */
+-webkit-box-sizing:border-box; /* Safari */
+}
+
 /*******************************************************************************
 Theme Styles
 *******************************************************************************/
@@ -169,9 +175,6 @@ pre, code {
   border-radius: 2px;
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
-
-
-
 }
 
 pre {
@@ -203,10 +206,11 @@ ul, ol, dl {
   margin-bottom: 15px
 }
 
+/* 
 ul li {
-  list-style: inside;
   padding-left: 20px;
 }
+*/
 
 ol li {
   list-style: decimal inside;
@@ -272,10 +276,23 @@ Full-Width Styles
 
 .inner {
   position: relative;
-  max-width: 640px;
-  padding: 20px 10px;
+  max-width: 1024px;
+  padding: 20px 20px;
   margin: 0 auto;
 }
+
+.icons { max-width: 968px; margin: 0 auto; clear: both; padding-top: 20px; -webkit-transition: all .3s; }
+
+/*------------- Four Column Row ----------------*/
+ul.four-col-grid { padding-bottom: 40px; }
+
+ul.four-col-grid li { width: 22%; margin-right: 4%; float: left; margin-bottom: 10px; }
+
+ul.four-col-grid li:nth-child(4n+4) { margin-right: 0; float: right; }
+
+
+
+
 
 #forkme_banner {
   display: block;
@@ -374,7 +391,16 @@ Full-Width Styles
   background: #212121;
 }
 
-
+@media only screen and (max-width: 1081px) { ul.four-col-grid li { width: 30%; margin-right: 5%; }
+  ul.four-col-grid li:nth-child(4n+4) { margin-right: 5%; float: left; }
+  ul.four-col-grid li:nth-child(3n+3) { margin-right: 0; float: right; }
+ }
+/*------------- ipad in portrait ----------------*/
+@media only screen and (max-width: 768px) { ul.four-col-grid li { width: 45%; margin-right: 10%; }
+  ul.four-col-grid li:nth-child(4n+4) { margin-right: 10%; float: left; }
+  ul.four-col-grid li:nth-child(3n+3) { margin-right: 10%; float: left; }
+  ul.four-col-grid li:nth-child(even) { margin-right: 0; float: right; }
+  ul.four-col-grid li:nth-child(odd) { clear: both; } }
 
 /*******************************************************************************
 Small Device Styles
@@ -427,5 +453,9 @@ Small Device Styles
     max-width: 480px;
     font-size: 11px;
   }
+
+.content { width: 80%; padding-top: 20px; }
+  ul.four-col-grid li { width: 100%; margin-right: 0; float: none; }
+  ul.four-col-grid li:nth-child(even) { float: none; }
 
 }
