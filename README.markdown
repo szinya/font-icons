@@ -2,7 +2,7 @@
 
 Get the plugin: 
 
-    $ git clone git://github.com/krisbulman/font-icons.git
+    $ gem install font-icons --pre
 
 Install the plugin: (should automatically install latest dependencies for Compass)
 
