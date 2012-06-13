@@ -1,7 +1,5 @@
 description "The Font-Icon Generator."
 
-stylesheet 'fonticon.scss', :media => 'screen, projection'
-html "example.html"
 font "entypo.eot"
 font "entypo.svg"
 font "entypo.ttf"
