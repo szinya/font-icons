@@ -301,7 +301,7 @@
 
 .iconic-sun_fill:before, ul.iconic li.menu-iconic-sun_fill:before { content: "\2600"; }
 
-.entypo-music:before, ul.entypo li.menu-entypo-music:before { content: "♪"; }
+.entypo-music:before, #forkme_banner:before, ul.entypo li.menu-entypo-music:before { content: "♪"; }
 
 .entypo-music-alt:before, ul.entypo li.menu-entypo-music-alt:before { content: "🎵"; }
 
@@ -631,10 +631,12 @@
 
 @font-face { font-family: "entypo"; src: url('fonts/entypo.eot'); src: url('fonts/entypo.eot?#iefix') format("embedded-opentype"), url('fonts/entypo.woff') format("woff"), url('fonts/entypo.ttf') format("truetype"), url('fonts/entypo.svg#entypo') format("svg"), url('fonts/entypo.otf') format("opentype"); font-weight: normal; font-style: normal; }
 
+@font-face { font-family: "IconicFill"; src: url('fonts/iconic.eot'); src: url('fonts/iconic.eot?#iefix') format("embedded-opentype"), url('fonts/iconic.woff') format("woff"), url('fonts/iconic.ttf') format("truetype"), url('fonts/iconic.svg#IconicFill') format("svg"), url('fonts/iconic.otf') format("opentype"); font-weight: normal; font-style: normal; }
+
+#forkme_banner:before { font-family: "entypo"; font-style: normal; font-size: 1em; margin-right: 0.8em; text-align: center; display: inline-block; width: 1em; }
+
 ul.entypo { list-style: none; list-style-image: none; }
 ul.entypo li:before { font-family: "entypo"; font-style: normal; font-size: 1em; margin-right: 0.8em; text-align: center; display: inline-block; width: 1em; }
-
-@font-face { font-family: "IconicFill"; src: url('fonts/iconic.eot'); src: url('fonts/iconic.eot?#iefix') format("embedded-opentype"), url('fonts/iconic.woff') format("woff"), url('fonts/iconic.ttf') format("truetype"), url('fonts/iconic.svg#IconicFill') format("svg"), url('fonts/iconic.otf') format("opentype"); font-weight: normal; font-style: normal; }
 
 ul.iconic { list-style: none; list-style-image: none; }
 ul.iconic li:before { font-family: "IconicFill"; font-style: normal; font-size: 1em; margin-right: 0.8em; text-align: center; display: inline-block; width: 1em; }
