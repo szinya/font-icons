@@ -17,6 +17,15 @@ iconic, entypo
 $ compass install -r font-icons font-icons
 ```
 
+## Update
+```
+# Uninstall the compass extension:
+$ sudo gem uninstall font-icons
+
+# Install the compass extension again:
+$ sudo gem install font-icons --pre
+```
+
 ## Usage
 ```
 // Import font-icons compass extension
@@ -45,15 +54,6 @@ ul.entypo {
 ## Arguments
 ```
 @include font-icon-base($family:"iconic", $font-size: 1em, $width: 1em, $margin: 0.8em)
-```
-
-## Update
-```
-# Uninstall the compass extension:
-$ sudo gem uninstall font-icons
-
-# Install the compass extension again:
-$ sudo gem install font-icons --pre
 ```
 
 ## Font Attribution
