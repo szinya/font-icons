@@ -44,7 +44,7 @@ ul.entypo {
 
 ## Arguments
 ```
-font-icon-base($family:"iconic", $font-size: 1em, $width: 1em, $margin: 0.8em)
+@include font-icon-base($family:"iconic", $font-size: 1em, $width: 1em, $margin: 0.8em)
 ```
 
 ## Update
