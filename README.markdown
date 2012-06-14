@@ -34,6 +34,17 @@ ul.entypo {
     &.menu-item-001 { @extend .entypo-music; }
   }
 }
+
+// To any piece of content
+.randomcontent {
+    @include font-icon-base(entypo); 
+    @extend .entypo-music;
+}
+```
+
+## Arguments
+```
+font-icon-base($family:"iconic", $font-size: 1em, $width: 1em, $margin: 0.8em)
 ```
 
 ## Update
