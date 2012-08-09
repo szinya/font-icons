@@ -1,3 +1,10 @@
+## Requirements
+
+```
+# Get the latest Sass pre-release
+$sudo gem install sass --pre
+```
+
 ## Install
 
 ```
@@ -27,7 +34,7 @@ $ sudo gem install font-icons --pre
 ```
 
 ## Usage
-```
+```css
 // Import font-icons compass extension
 @import "font-icons";
 
@@ -40,14 +47,14 @@ ul.entypo {
   list-style-image: none;
   li {
     @include font-icon-base(entypo); 
-    &.menu-item-001 { @extend .entypo-music; }
+    &.menu-item-001 { @extend %entypo-music; }
   }
 }
 
 // To any piece of content
 .randomcontent {
     @include font-icon-base(entypo); 
-    @extend .entypo-music;
+    @extend %entypo-music;
 }
 ```
 
