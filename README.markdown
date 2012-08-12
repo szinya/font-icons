@@ -1,10 +1,3 @@
-## Requirements
-
-```
-# Get the latest Sass pre-release
-$sudo gem install sass --pre
-```
-
 ## Install
 
 ```
