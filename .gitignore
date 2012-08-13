@@ -5,3 +5,4 @@ lib/.DS_Store
 lib/templates/project/.DS_Store
 lib/stylesheets/.DS_Store
 .DS_Store
+*.gem
