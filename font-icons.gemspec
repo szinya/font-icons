@@ -15,7 +15,7 @@ Gem::Specification.new do |gemspec|
   gemspec.summary = "A Compass plugin for generating font icons."
 
   gemspec.add_dependency 'compass', '>= 0.11'
-  gemspec.add_dependency 'sass', '~> 3.2.0'
+  gemspec.add_dependency 'sass', '>= 3.2.0.alpha.275'
 
   gemspec.files = %w(README.markdown VERSION.yml Rakefile)
   gemspec.files += Dir.glob("lib/**/**/*")
