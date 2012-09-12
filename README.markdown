@@ -1,6 +1,6 @@
 ## Example 
 
-For a quick project set up, check out this gist https://gist.github.com/3704236
+For a quick project set up, check out this gist https://gist.github.com/3704236    
 For a preview of icons and placeholder names, see here: http://krisbulman.github.com/font-icons
 
 ## Install
