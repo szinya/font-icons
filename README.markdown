@@ -57,7 +57,7 @@ ul.entypo {
 ```
 
 ## Arguments
-```
+```ruby
 @include font-icon-base($family:"iconic", $font-size: 1em, $width: 1em, $margin: 0.8em)
 ```
 
