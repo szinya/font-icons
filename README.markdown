@@ -1,3 +1,7 @@
+## Example 
+
+For a quick project set up, check out this gist https://gist.github.com/3704236
+
 ## Install
 
 ```
