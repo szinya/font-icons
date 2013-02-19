@@ -1,11 +1,11 @@
 @mixin font-icon-family($family:"iconic", $file:"iconic") {
   @if $family == "iconic" {
     $family:"IconicFill";
-    $file:"iconic";
+    $file:"iconic" !default;
   }
   @else if $family == "entypo" {
     $family:"entypo";
-    $file:"entypo";
+    $file:"entypo" !default;
   }
   @font-face {
     font-family: '#{$family}'; 
